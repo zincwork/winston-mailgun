@@ -6,14 +6,14 @@ This is a transport written to implement [mailgun-js](https://github.com/1lobby/
 
 ``
   npm install winston
-  npm install winston-mailgun
+  npm install zinc-winston-mailgun 
 ``
 
 ## Usage
 
 ``
   var winston = require('winston');
-  require('winston-mailgun').MailGun;
+  require('zinc-winston-mailgun').MailGun;
   winston.add(winston.transports.MailGun, options);
 ``
 
@@ -29,6 +29,7 @@ Optional:
 - `subject` Subject of e-mail
 - `level` Level that this transport should log (e-mail).
 - `silent` Boolean flag indicating whether to suppress output and thus, the e-mail.
+- `host` Your Mailgun Host
 - `proxy` The proxy URI in format http[s]://[auth@]host:port. ex: 'http://proxy.example.com:8080'  
 - `timeout` Request timeout in milliseconds  
 
