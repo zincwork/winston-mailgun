@@ -1,4 +1,4 @@
-# winston-mailgun
+# zinc-winston-mailgun
 
 This is a transport written to implement [mailgun-js](https://github.com/1lobby/mailgun-js) with [winston](https://github.com/winstonjs/winston)
 
