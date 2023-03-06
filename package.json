@@ -1,5 +1,5 @@
 {
-  "name": "@muhammadali96/winston-mailgun",
+  "name": "zinc-winston-mailgun",
   "description": "Custom Zinc Winston Transport for MailGun",
   "version": "0.2.3",
   "author": {
