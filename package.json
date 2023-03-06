@@ -1,6 +1,6 @@
 {
-  "name": "winston-mailgun",
-  "description": "Winston Transport for MailGun",
+  "name": "zinc-winston-mailgun",
+  "description": "Custom Zinc Winston Transport for MailGun",
   "version": "0.2.2",
   "author": {
     "author": "Josh Madewell",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/joshmadewell/winston-mailgun"
+    "url": "https://github.com/zincwork/winston-mailgun"
   },
   "keywords": [
     "mailgun",
